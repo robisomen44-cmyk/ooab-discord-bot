@@ -1,0 +1,36 @@
+{
+  "name": "ooab-discord-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord completo e profissional para servidores da OAB",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/",
+    "db:init": "node src/database/init.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "oab",
+    "discord.js"
+  ],
+  "author": "Rob",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "pg": "^8.11.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.45",
+    "youtube-sr": "^4.3.2",
+    "play-dl": "^1.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.52.0"
+  }
+}
